@@ -1,11 +1,9 @@
 <template>
   <div id="app">
-    <img src="./assets/img/bn4t.jpg" v-if="!homepage" width="50px" class="mr-6 absolute right-0 rounded-full shadow" alt="Hi, this is me">
+    <ProfilePic/>
     <Navbar class="mt-8 mb-12 mb-3"/>
-    <div class="max-w-full md:max-w-3xl md:mx-auto">
-      <transition name="custom-classes-transition"
-                      enter-active-class="animated tada"
-                      leave-active-class="animated bounceOutRight">
+    <div class="max-w-full md:max-w-3xl md:mx-auto mt-16">
+      <transition enter-active-class="animate__animated animate__fadeInUp">
         <router-view/>
       </transition>
     </div>
@@ -13,16 +11,19 @@
 </template>
 
 <style>
+.animate__animated.animate__fadeInUp {
+  --animate-duration: 0.8s;
+}
 </style>
 <script>
+
 import Navbar from '@/components/Navbar'
+import ProfilePic from '@/components/ProfilePic'
 
 export default {
-  components: { Navbar },
-  computed: {
-    homepage: function () {
-      return this.$route.path === '/'
-    }
+  components: { ProfilePic, Navbar },
+  updated () {
   }
 }
+
 </script>
