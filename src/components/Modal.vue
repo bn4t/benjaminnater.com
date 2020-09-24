@@ -1,15 +1,14 @@
 <template>
-  <transition name="modal">
     <div class="modal-mask">
       <div class="modal-wrapper">
-        <div class="bg-white shadow-lg px-6 pb-3 pt-6 rounded-lg text-gray-800 mx-2 md:mx-auto max-w-2xl">
+        <div class="bg-white shadow-2xl px-6 pb-3 pt-6 rounded-lg text-gray-800 mx-2 md:mx-auto max-w-2xl">
           <h1 class="text-2xl font-semibold">{{ title }}</h1>
 
           <div class="my-4">
             {{ content }}
           </div>
 
-          <div class="flex justify-end">
+          <div class="flex justify-end mb-1">
             <button class="hover:bg-gray-300 py-1 px-2 rounded-lg text-gray-700 font-semibold" @click="$emit('close')">
               Close
             </button>
@@ -17,7 +16,6 @@
         </div>
       </div>
     </div>
-  </transition>
 </template>
 
 <script>
@@ -41,7 +39,6 @@ export default {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   display: table;
-  transition: opacity 0.3s ease;
 }
 
 .modal-wrapper {

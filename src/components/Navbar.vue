@@ -1,7 +1,8 @@
 <template>
-  <nav class="mx-auto max-w-lg flex flex-wrap justify-between">
+  <nav class="mx-auto max-w-xl flex flex-wrap justify-between">
     <router-link class="text-2xl text-gray-400 font-semibold underline-effect" to="/">Home</router-link>
     <router-link class="text-2xl text-gray-400 font-semibold underline-effect" to="/portfolio">Portfolio</router-link>
+    <router-link class="text-2xl text-gray-400 font-semibold underline-effect" to="/projects">Projects</router-link>
     <router-link class="text-2xl text-gray-400 font-semibold underline-effect" to="/blog">Blog</router-link>
     <router-link class="text-2xl text-gray-400 font-semibold underline-effect" to="/about">About Me</router-link>
     <router-link class="text-2xl text-gray-400 font-semibold underline-effect" to="/contact">Contact</router-link>
