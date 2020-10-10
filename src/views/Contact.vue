@@ -1,5 +1,7 @@
 <template>
-<div></div>
+  <div>
+    <h1 class="text-5xl font-semibold text-center mb-2">Contact</h1>
+  </div>
 </template>
 
 <script>
