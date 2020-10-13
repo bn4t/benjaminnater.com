@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <Navbar class="mt-8 mb-12 mb-3"/>
-    <div class="max-w-full mx-3 md:max-w-6xl md:mx-auto my-16">
-      <transition enter-active-class="animate__animated animate__fadeInUp">
+    <div class="max-w-full mx-6 md:max-w-2xl lg:max-w-3xl md:mx-auto my-16">
+      <transition enter-active-class="animate__animated animate__fadeIn">
         <router-view/>
       </transition>
     </div>
@@ -10,12 +10,12 @@
 </template>
 
 <style>
-.animate__animated.animate__fadeOutDown {
-  --animate-duration: 0.4s;
+.animate__animated.animate__fadeIn {
+  --animate-duration: 1s;
 }
 
-.animate__animated.animate__fadeInUp {
-  --animate-duration: 0.4s;
+* {
+  font-family: 'Raleway', sans-serif;
 }
 </style>
 <script>
