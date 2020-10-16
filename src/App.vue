@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <Navbar class="mt-8 mb-12 mb-3"/>
-    <div class="max-w-full mx-6 md:max-w-2xl lg:max-w-3xl md:mx-auto my-16">
-      <transition enter-active-class="animate__animated animate__fadeIn">
+    <div class="md:mx-auto my-16 px-5" style="max-width: 70ch;">
+      <transition enter-active-class="animate__animated animate__fadeIn" leave-active-class="hidden">
         <router-view/>
       </transition>
     </div>

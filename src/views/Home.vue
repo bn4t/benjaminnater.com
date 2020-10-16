@@ -5,7 +5,7 @@
          alt="This is me!">
     <div class="text-center mt-6">
       <h1 class="text-2xl" style="font-family: 'Caveat', cursive;">Benjamin Nater</h1>
-      <h2>Entrepreneur, Problem Solver</h2>
+      <h2>Likes to solve problems. Fascinated by simplicity.</h2>
     </div>
     <div class="flex flex-wrap items-center justify-center max-w-xs mx-auto my-5">
       <a href="https://github.com/bn4t" target="_blank" class="rounded-full p-2 hover:bg-gray-300 ">
