@@ -1,9 +1,8 @@
 <template>
   <div class="flex justify-between px-6 items-center mt-10 md:mt-16">
-    <nav class="max-w-md mx-auto w-full flex flex-wrap justify-between ">
+    <nav class="max-w-sm mx-auto w-full flex flex-wrap justify-between ">
       <router-link class="text-xl underline-effect focus:outline-none" to="/">Home</router-link>
       <router-link class="text-xl underline-effect focus:outline-none" to="/portfolio">Portfolio</router-link>
-      <router-link class="text-xl underline-effect focus:outline-none" to="/about">About Me</router-link>
       <router-link class="text-xl underline-effect focus:outline-none" to="/contact">Contact</router-link>
     </nav>
   </div>
