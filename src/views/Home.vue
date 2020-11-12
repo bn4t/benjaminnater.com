@@ -5,7 +5,7 @@
          width="150px">
     <div class="text-center mt-6">
       <h1 class="text-2xl" style="font-family: 'Caveat', cursive;">Benjamin Nater</h1>
-      <h2>I like to solve problems. Fascinated by simplicity.</h2>
+      <h2>Full stack developer. FOSS enthusiast.</h2>
     </div>
     <div class="flex flex-wrap items-center justify-center max-w-xs mx-auto my-5" title="Github">
       <a class="rounded-full p-2 hover:bg-gray-300 " href="https://github.com/bn4t" target="_blank">
