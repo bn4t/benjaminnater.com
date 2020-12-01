@@ -19,7 +19,7 @@
 
     <h2 class="text-3xl mb-2 mt-10">Previous Positions</h2>
     <h3 class="text-2xl mb-2">Canton of Aargau</h3>
-    <p class="mb-3">I'm going to complete my apprenticeship at the canton of Aargau in July 2020. During my
+    <p class="mb-3">I'm going to complete my apprenticeship at the canton of Aargau in July 2021. During my
       apprenticeship I was able to work with a broad tech stack ranging from the backend to the frontend.</p>
     <p>I also lead a project to merge various solutions for recurring filesystem operations into a single centralized
       service, saving time and reducing complexity of the internal infrastructure.</p>
