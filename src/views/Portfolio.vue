@@ -14,8 +14,7 @@
     </p>
 
     <h2 class="text-3xl mb-2 mt-10">Languages</h2>
-    <p>I fluently speak German (my mother tongue) and English. I also speak a bit of French, though it's
-      a bit rusty.</p>
+    <p>I fluently speak German (my mother tongue) and English. I also know the basics of french.</p>
 
     <h2 class="text-3xl mb-2 mt-10">Previous Positions</h2>
     <h3 class="text-2xl mb-2">Canton of Aargau</h3>
