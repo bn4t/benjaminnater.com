@@ -3,10 +3,10 @@
     <h1 class="text-5xl text-center mb-2">Portfolio</h1>
     <h2 class="text-3xl mb-2">Skills</h2>
     <ul class="list-disc list-inside mb-4">
-      <li><span class="font-semibold">Programming Languages:</span> Golang, Javascript, PHP (Laravel), Shell, C# & .Net</li>
+      <li><span class="font-semibold">Programming Languages:</span> Golang, PHP (Laravel), .NET, POSIX Shell, JavaScript (Vanilla & Vue)</li>
       <li><span class="font-semibold">Databases:</span> PostgreSQL, SQLite</li>
-      <li><span class="font-semibold">DevOps:</span> Linux, Docker (Swarm), Saltstack, Caddy/Nginx/Traefik</li>
-      <li><span class="font-semibold">Misc:</span> Email standards (SMTP/DMARC/DKIM/SPF), DNS & DNSSEC, basic X.509 knowledge</li>
+      <li><span class="font-semibold">DevOps:</span> Linux, Docker, Terraform, Hashicorp Packer, Kubernetes</li>
+      <li><span class="font-semibold">Misc:</span> Email standards (SMTP/DMARC/DKIM/SPF), DNS & DNSSEC, basic X.509 & cryptography knowledge</li>
     </ul>
     <p>
       Skill you're looking for not listed here? No worries, I'm quick at picking up new skills. Send me a message and
